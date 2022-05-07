@@ -1039,7 +1039,7 @@ func RedrawWindow(hWnd HWND, lpRect *RECT, hrgnUpdate HRGN, flag uint32) {
 		uintptr(hrgnUpdate),
 		uintptr(flag),
 	)
-	if ret!=0{
+	if ret != 0 {
 		panic("RedrawWindow fail")
 	}
 	return

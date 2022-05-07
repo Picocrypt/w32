@@ -167,7 +167,7 @@ const (
 	EVENT_TRACE_TYPE_CHECKPOINT            = 0x08
 	EVENT_TRACE_TYPE_SUSPEND               = 0x08
 	EVENT_TRACE_TYPE_WINEVT_SEND           = 0x09
-	EVENT_TRACE_TYPE_WINEVT_RECEIVE        = 0XF0
+	EVENT_TRACE_TYPE_WINEVT_RECEIVE        = 0xF0
 	TRACE_LEVEL_NONE                       = 0
 	TRACE_LEVEL_CRITICAL                   = 1
 	TRACE_LEVEL_FATAL                      = 1
